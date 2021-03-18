@@ -10,9 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pw1Kz7u9CMcucHawQOB1MMqXcw" />
@@ -62,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616079283069</updated>
-      <workItem from="1616079287436" duration="1735000" />
+      <workItem from="1616079287436" duration="4023000" />
+      <workItem from="1616085555137" duration="1607000" />
     </task>
     <servers />
   </component>
@@ -81,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
