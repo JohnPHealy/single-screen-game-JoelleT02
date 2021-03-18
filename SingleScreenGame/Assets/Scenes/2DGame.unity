@@ -47593,7 +47593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126667986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.126404, y: 10.7630005, z: 217.63585}
+  m_LocalPosition: {x: 40.126404, y: 10.7630005, z: 218.12439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 156650240}
@@ -48284,7 +48284,7 @@ GameObject:
   - component: {fileID: 1681608958}
   - component: {fileID: 1681608957}
   m_Layer: 0
-  m_Name: Tailing Barnaby
+  m_Name: Tailing Stroganoff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53727,6 +53727,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 420d8bd6340d139459840a70fb35256c, type: 3}
+--- !u!1 &2000418952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000418954}
+  - component: {fileID: 2000418953}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2000418953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000418952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13933ea3aa8f4f4ebadaaa725be938a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3837712170904748901}
+--- !u!4 &2000418954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000418952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.427049, y: -25.169273, z: -414.85663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2125795322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53957,6 +54001,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55de255117ff8cc4d876783d1286360f, type: 3}
+--- !u!1 &3837712170904748901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4176091895600033282, guid: 3b5a1b3f2a21ea8419b9865f6938dcb7, type: 3}
+  m_PrefabInstance: {fileID: 915989491625766247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7715436973900706547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53964,6 +54013,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 611527082, guid: 4eb6582cdbbc1fe438d961de5881cb71, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 2000418953}
     - target: {fileID: 611527082, guid: 4eb6582cdbbc1fe438d961de5881cb71, type: 3}
       propertyPath: playerCheck
       value: 
@@ -53983,6 +54036,10 @@ PrefabInstance:
     - target: {fileID: 804065832734025874, guid: 4eb6582cdbbc1fe438d961de5881cb71, type: 3}
       propertyPath: m_Radius
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859620201935631518, guid: 4eb6582cdbbc1fe438d961de5881cb71, type: 3}
+      propertyPath: m_Mass
+      value: 1.5707964
       objectReference: {fileID: 0}
     - target: {fileID: 4176091895600033282, guid: 4eb6582cdbbc1fe438d961de5881cb71, type: 3}
       propertyPath: m_Name
