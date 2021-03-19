@@ -19,7 +19,7 @@ public class ScoreScript : MonoBehaviour
     {
         if (coin.tag == "MyCoin")
         {
-            ScoreNum += 1;
+            ScoreNum += 100;
             Destroy(coin.gameObject);
             ScoreText.text = "Score: " + ScoreNum;
         }

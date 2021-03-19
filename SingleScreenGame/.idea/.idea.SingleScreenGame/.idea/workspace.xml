@@ -21,6 +21,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
       <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/ScoreScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pw1Kz7u9CMcucHawQOB1MMqXcw" />
@@ -74,7 +75,7 @@
       <workItem from="1616085555137" duration="6295000" />
       <workItem from="1616160088877" duration="1000" />
       <workItem from="1616160348981" duration="3000" />
-      <workItem from="1616162871861" duration="2428000" />
+      <workItem from="1616162871861" duration="2556000" />
     </task>
     <servers />
   </component>
