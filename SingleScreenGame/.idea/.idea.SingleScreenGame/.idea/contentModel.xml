@@ -279,6 +279,7 @@
           <e p="AIPatrol.cs" t="Include" />
           <e p="PlayerCombat.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="ScoreScript.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

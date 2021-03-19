@@ -9,13 +9,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private UnityEvent<string> addScore;
     private Vector3 startPos;
-    private int score;
 
     private void Start()
     {
         startPos = player.transform.position;
-        score = 0;
-        UpdateUI();
         PauseGame();
 
     }
@@ -23,20 +20,8 @@ public class GameManager : MonoBehaviour
     public void RespawnPlayer()
     {
         player.transform.position = startPos;
-        score = 0;
-        UpdateUI();
     }
 
-    public void AddScore(int scoreAmount)
-    {
-        score += scoreAmount;
-        UpdateUI();
-    }
-
-    private void UpdateUI()
-    {
-        addScore.Invoke(score.ToString());
-    }
 
     public void PauseGame()
     {
